@@ -3,7 +3,7 @@ This project focuses on analysing the financial performance of companies listed 
 The objective was to collect, clean, and organise the financial statement data of these companies and convert it into a structured dataset that can be used for analysis.
 
 We begin by importing multiple raw datasets containing company identifiers, financial items, and industry classifications. Since the data comes in different formats and not every company reports the same items, a large part of the project involves data cleaning, standardisation, and merging. This includes fixing company names, reshaping the financial data into a usable format, and aligning it with metadata such as country and industry. We then conducted sanity checks on a few randomly choosed companies for confirming the accuracy of the data.
-
+ 
 After preparing the dataset, we compute key financial ratios—such as profitability, leverage, liquidity, and efficiency metrics. These ratios allow us to compare companies, industries, and countries across the years 2021, 2022, and 2023.
 
 Finally, using the cleaned dataset and computed ratios, we explore patterns in the STOXX 600 by generating tables and visualisations.
